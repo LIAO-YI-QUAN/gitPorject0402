@@ -1,0 +1,150 @@
+body {
+    /* 區域底色 */
+    background-color: var(--mycolor01);
+    /* 上方內距 */
+    padding-top: 15px;
+}
+
+/* class前面有. */
+.wrapper {
+    /* 寬度 */
+    width: 1024px;
+    /* 網頁內容置中，外距上下0、左右auto */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar{
+    background-color: var(--mycolor05);
+    width: 250px;
+    height: 70vh;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.sidebar nav ul li{
+    list-style-type: none;
+}
+.sidebar nav ul li a{
+    background-color: var(--mycolor01);
+    display: block;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--textcolor01);
+}
+
+.sidebar nav ul li a:hover{
+    background-color: var(--textcolor01);
+    color: var(--mycolor01);
+}
+
+/* 不是class前面不用加. */
+.banner nav {
+    /* 區域板塊，底色 */
+    background-color: brown;
+    /* 區域內容置中 */
+    text-align: center;
+}
+
+.banner nav ul {
+    display: inline-block;
+}
+
+.banner nav ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.banner nav ul li a {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* background-color: aquamarine; */
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.banner nav ul li a:hover {
+    background-color: aquamarine;
+}
+
+.content_in {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 5px;
+}
+
+.content_in h1 {
+    color: var(--textcolor01);
+    text-align: center;
+}
+
+.content_in p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.content_in a {
+    text-align: center;
+    display: block;
+    width: 130px;
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    /* 垂直置中 */
+    line-height: 40px;
+}
+
+.content_in a:hover {
+    color: white;
+    background-color: blue;
+}
+
+.footer {
+    background-color: rgb(102, 75, 75);
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 100%;
+    }
+    .sidebar{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .sidebar ul{
+        display: inline-block;
+    }
+
+    .sidebar ul li{
+        float: left;
+        margin-right: 5px;
+    }
+}

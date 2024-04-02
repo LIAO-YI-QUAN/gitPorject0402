@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --mycolor01: #DCC1B0;
+    --mycolor02: #869DAB;
+    --mycolor03: #847072;
+    --mycolor04: #3D313F;
+    --mycolor05: #846814;
+    --mycolor06: #cccccc;
+    --mycolor07: #ffc2c3;
+    --mycolor08: #fe7773;
+    --mycolor09: #e81e25;
+    --mycolor10: #fd9735;
+    --mycolor11: #f26322;
+    --mycolor12: #ff6745;
+    --mycolor13: #f6e0ae;
+    --mycolor14: #fec748;
+    --mycolor15: #fec804;
+    --mycolor16: #d1ede1;
+    --mycolor17: #7bc5ae;
+    --mycolor18: #028c6a;
+    --mycolor19: #85b8cb;
+    --mycolor20: #1d6a96;
+    --mycolor21: #0359ae;
+    --mycolor22: #416eb6;
+    --mycolor23: #715ca8;
+    --mycolor24: #2b103b;
+    --mycolor25: #d3b7d8;
+    --mycolor26: #a13e97;
+    --mycolor27: #632a7e;
+    /* rgba  a是 阿爾法值 第四個參數位 0~1 小數點前的0可省略(.3) */
+    --mycolor28: rgba(0, 0, 0, 0.2);
+    --textcolor01: red;
+    --textcolor02: #cccccc;
+    --textcolor03: ;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-200 {
+    font-weight: 200;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.mr-1 {
+    margin-right: 1px;
+}
+
+.mr-2 {
+    margin-right: 2px;
+}
+
+.mr-3 {
+    margin-right: 3px;
+}
+
+.mr-4 {
+    margin-right: 4px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.bg-cover {
+    background-position: center center;
+    background-size: cover;
+}
+
+.demo {
+    width: 70%;
+    padding: 25px;
+    margin: 25px;
+    /* 框線 : 框線的粗細 框線的樣式 框線的顏色 */
+    border: 2px solid var(--mycolor04);
+}

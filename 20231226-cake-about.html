@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>甜食-公司介紹</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/myall.css">
+    <style>
+        .banner {
+            height: 320px;
+            background-image: url();
+        }
+
+        .img01 {
+            height: 280px;
+            background-image: url();
+        }
+
+        .timeline-section {
+            position: relative;
+        }
+
+        .timeline-section::before {
+            position: absolute;
+            content: "";
+            top: 10px;
+            bottom: 10px;
+            width: 5px;
+            background-color: var(--mycolor20);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .timeline-pointer{
+            position: relative;
+        }
+        .timeline-pointer::before{
+            position: absolute;
+            content: "";
+            top: 0;
+            width: 15px;
+            height: 15px;
+            background-color: var(--textcolor02);
+            border-radius: 50%;
+            border: 5px solid var(--mycolor20);
+        }
+        .timeline-pointer:hover::before{
+            width: 25px;
+            height: 25px;
+            background-color: var(--textcolor02);
+            border: 5px solid var(--mycolor20);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-900 navbar-dark" href="#">甜食 Sweet</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="http://127.0.0.1:5500/20231226-cake-index.html"
+                            target="_blank">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="http://127.0.0.1:5500/20231226-cake-about.html"
+                            target="_blank">公司介紹</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            服務項目
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">麵包</a></li>
+                            <li><a class="dropdown-item" href="#">蛋糕</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">甜品</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="http://127.0.0.1:5500/20231226-cake-product.html">產品介紹</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    <div class="banner bg-info bg-cover"></div>
+    <div class="container">
+        <div class="timeline-section">
+            <div class="row mt-3 justify-content-center align-items-center timeline-pointer">
+                <div class="col-md-5 text-center">
+                    <div class="text01">
+                        <h3 class="fw-900 text-danger">關於我們<small class="text-muted">About Us</small></h3>
+                        <p>類別主流頭髮舉報到底，當初非。</p>
+                        <ul class="list-unstyled">
+                            <li>全體整體，睡覺名字。</li>
+                            <li>全體整體，睡覺名字。</li>
+                            <li>全體整體，睡覺名字。</li>
+                            <li>全體整體，睡覺名字。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="img01 bg-info"></div>
+                </div>
+            </div>
+            <div class="row mt-3 justify-content-center align-items-center flex-row-reverse timeline-pointer">
+                <div class="col-md-5 text-center">
+                    <div class="text01">
+                        <h3 class="fw-900 text-success">店家資訊<small class="text-muted">Store Info</small></h3>
+                        <p>類別主流頭髮舉報到底，當初非。</p>
+                        <ul class="list-unstyled">
+                            <li>全體整體，睡覺名字。</li>
+                            <li>全體整體，睡覺名字。</li>
+                            <li>全體整體，睡覺名字。</li>
+                            <li>全體整體，睡覺名字。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="img01 bg-info"></div>
+                </div>
+            </div>
+            <div class="row mt-3 justify-content-center align-items-center timeline-pointer">
+                <div class="col-md-5 text-center">
+                    <div class="text01">
+                        <h3 class="fw-900 text-danger">關於我們<small class="text-muted">About Us</small></h3>
+                        <p>類別主流頭髮舉報到底，當初非。</p>
+                        <ul class="list-unstyled">
+                            <li>全體整體，睡覺名字。</li>
+                            <li>全體整體，睡覺名字。</li>
+                            <li>全體整體，睡覺名字。</li>
+                            <li>全體整體，睡覺名字。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="img01 bg-info"></div>
+                </div>
+            </div>
+            <div class="row mt-3 justify-content-center align-items-center flex-row-reverse timeline-pointer">
+                <div class="col-md-5 text-center">
+                    <div class="text01">
+                        <h3 class="fw-900 text-success">店家資訊<small class="text-muted">Store Info</small></h3>
+                        <p>類別主流頭髮舉報到底，當初非。</p>
+                        <ul class="list-unstyled">
+                            <li>全體整體，睡覺名字。</li>
+                            <li>全體整體，睡覺名字。</li>
+                            <li>全體整體，睡覺名字。</li>
+                            <li>全體整體，睡覺名字。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="img01 bg-info"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer bg-dark text-white text-center fw-900 py-3 mt-4">
+        @甜食 2023製作
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

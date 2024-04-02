@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>甜食.Sweet</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/myall.css">
+    <style>
+        body {
+            /* background-image: url(); */
+            background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url(/image/whole_grain_nut_bread.jpg);
+            /* 漸層配圖片 漸層角度, 漸層深度, 漸層深度, 圖片路徑 */
+            background-position: center center;
+            background-size: cover;
+            /* 圖片延伸 */
+            background-repeat: no-repeat;
+            /* 圖片不重複 */
+            background-attachment: fixed;
+        }
+
+        .text01 {
+            font-style: 48px;
+            font-weight: 900;
+            background-color: rgba(0, 0, 0, 0.3);
+            color: var(--textcolor02);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px 2px var(--mycolor25);
+            margin-top: 5%;
+        }
+
+        @media screen and (max-width: 768px) {
+            body {
+                background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url(image/whole_grain_nut_bread.jpg);
+            }
+
+            .text01 {
+                padding: 0;
+                font-style: 20px;
+                border-radius: 2px;
+                box-shadow: 1px 1px 1px 0px var(--mycolor25);
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-900 navbar-dark" href="#">甜食 Sweet</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/20231226-cake-index.html" target="_blank">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/20231226-cake-about.html" target="_blank">公司介紹</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            服務項目
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">麵包</a></li>
+                            <li><a class="dropdown-item" href="#">蛋糕</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">甜品</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="http://127.0.0.1:5500/20231226-cake-product.html" target="_blank">產品介紹</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <!-- 未來自己做的時候請用position排版 -->
+            <div class="col-md-6 offset-md-3" style="margin-top: 20%;">
+                <div class="text01">麵包店裡的幸福，一口一口都在等著您。</div>
+            </div>
+            <div class="col-md-6 offset-md-3">
+                <div class="text01">新鮮出爐，每天為您帶來的是美好與香氣。</div>
+            </div>
+            <div class="col-md-6 offset-md-3" style="margin-top: 20%;">
+                <div class="text01">用心製作，愛心烘焙，讓每個麵包都充滿溫暖。</div>
+            </div>
+            <div class="col-md-6 offset-md-3">
+                <div class="text01">一片麵包，一份感動，帶給您美味的生活節奏。</div>
+            </div>
+            <div class="col-md-6 offset-md-3" style="margin-top: 20%;">
+                <div class="text01">在這裡，麵包不僅是食物，更是味蕾的一場奇妙冒險。</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
